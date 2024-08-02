@@ -1,0 +1,27 @@
+{% load static %}
+<aside class="menu-sidebar d-none d-lg-block bg-dark text-light">
+            <div class="logo bg-primary text-light">
+                <a href='sales:sales' class='text-white'>
+                    CHMSC FISH FARM MANAGEMENT SYSTEM
+                </a>
+            </div>
+            <div class="menu-sidebar__content js-scrollbar1">
+                <nav class="navbar-sidebar">
+                    <ul class="list-unstyled navbar__list">
+                
+
+                         <li>
+                            <a href="{% url 'sales:sales' %}">
+                                <i class="far fa-folder"></i>Sales</a>
+                        </li>
+                        <li>
+                            <a href="{% url 'sales:orders' %}">
+                                <i class="far fa-folder"></i>Orders</a>
+                        </li>
+
+                    
+                      
+                    </ul>
+                </nav>
+            </div>
+        </aside>

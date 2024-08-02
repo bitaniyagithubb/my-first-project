@@ -1,0 +1,58 @@
+
+body { 
+    background-color:f2f2f2 ;
+    margin:0;
+    padding:0;
+    font-family:helvetica, sans-serif; 
+}
+
+a { 
+    color:#1c29e09a;
+    text-decoration:none; 
+}
+
+h1 { 
+    font-weight:normal;
+    border-bottom:1px solid #bbb;
+    padding:0 0 10px 0;
+    color: #1c29e09a;
+}
+
+h2 {
+    font-weight:normal;
+    margin:30px 0 0;
+    color: aquamarine;
+}
+
+#content { 
+    float:left;
+    width:60%;
+    padding:0 0 0 30px; 
+}
+
+body{
+    background-color: aquamarine;
+}
+#sidebar { 
+    float:right;
+    width:30%;
+    padding:10px;
+    height:100%;
+}
+
+#link {
+    color: rgba(0, 140, 255, 0.582);
+}
+
+p.date { 
+    color:#ccc;
+    font-family: georgia, serif;
+    font-size: 12px;
+    font-style: italic; 
+}
+
+/* pagination */
+.pagination { 
+    margin:40px 0; 
+    font-weight:bold;
+}
